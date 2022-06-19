@@ -1,0 +1,22 @@
+Dim Berhenti As Boolean
+
+
+Private Sub UserForm_Activate()
+Do Until Berhenti
+    LBjam.Caption = Time
+    LBtanggal.Caption = WorksheetFunction.Text(Date, "[$-0421]DDDD, DD MMM YYYY")
+    
+    LBtext.Left = LBtext.Left - 2
+    If LBtext.Left <= 0 - LBtext.Width Then LBtext.Left = Me.Width
+    For i = 1 To 8000000: Next
+    DoEvents
+Loop
+End Sub
+
+Private Sub UserForm_Initialize()
+BackColor = RGB(58, 69, 156)
+End Sub
+
+Private Sub UserForm_QueryClose(Cancel As Integer, CloseMode As Integer)
+Berhenti = True
+End Sub
