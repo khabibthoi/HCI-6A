@@ -1,0 +1,30 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="customTab" label="Khabib Mutho'i">
+                <group id="customGroup1" label="Pendataan">
+                    <button id="Dash" label="Data Mahasiswa" image="Gameboy" size="large"/>
+                    <button id="Input" 
+                        visible="true" 
+                        size="large" 
+                        label="Input Data" 
+                        imageMso="SignatureLineInsert" 
+                        onAction="InputData"/>
+                    <button id="DB" 
+                        visible="true" 
+                        size="large" 
+                        label="Database" 
+                        imageMso="AccessTableContacts" 
+                        onAction="Database"/>
+                </group>
+                <group id="customGroup2" label="media sosial">
+                    <button id="igs" label="instagram" image="ig" size="large" onAction="modulige"/>
+                    <button id="tts" label="tik-tok" image="tt" size="large" onAction="modultt"/>
+                    <button id="twis" label="twitter" image="twi" size="large" onAction="modultwis"/>
+                    <button id="yts" label="youtube" image="yt" size="large" onAction="modulyts"/>
+                    <button id="fbs" label="facebook" image="fb" size="large" onAction="modultfbs"/>
+                </group> 
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
