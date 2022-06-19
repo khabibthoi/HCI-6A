@@ -1,0 +1,32 @@
+'Callback for Input onAction
+Sub InputData(control As IRibbonControl)
+End Sub
+
+'Callback for DB onAction
+Sub Database(control As IRibbonControl)
+End Sub
+
+'Callback for igs onAction
+Sub modulige(control As IRibbonControl)
+MsgBox "Follow instagram saya @to.i._", vbInformation, "PEMBERITAHUAN"
+End Sub
+
+'Callback for tts onAction
+Sub modultt(control As IRibbonControl)
+MsgBox "Follow Tik-tok saya @emang to'i siapa?", vbInformation, "PEMBERITAHUAN"
+End Sub
+
+'Callback for twis onAction
+Sub modultwis(control As IRibbonControl)
+MsgBox "maaf twitter saya belum ada", vbInformation, "PEMBERITAHUAN"
+End Sub
+
+'Callback for yts onAction
+Sub modulyts(control As IRibbonControl)
+MsgBox "Subscribe chanel youtube KHABIB MUTHO'I", vbInformation, "PEMBERITAHUAN"
+End Sub
+
+'Callback for fbs onAction
+Sub modultfbs(control As IRibbonControl)
+MsgBox "Tambahkan saya di Facebook @khabib tho'i", vbInformation, "PEMBERITAHUAN"
+End Sub
